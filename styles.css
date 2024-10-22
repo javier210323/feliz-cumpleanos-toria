@@ -1,0 +1,104 @@
+body {
+    margin: 50;
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('img.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    color: #d32f2f;
+    text-align: center;
+}
+
+/* Estilo del contenedor */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo del párrafo */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Estilo para centrar las imágenes en la galería */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de entrada */
+.input-section {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+/* Sección de música y video */
+.music-section {
+    margin-top: 30px;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo adicional del mensaje */
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Estilo adicional de las imágenes */
+.image-gallery img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
